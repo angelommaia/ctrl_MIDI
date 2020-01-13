@@ -1,0 +1,10 @@
+
+
+///REFERENCIAS
+  /**********
+    //sendNoteOn(NoteNumber, Velocity, Channel)
+      Parameters
+      inNoteNumber  Pitch value in the MIDI format (0 to 127).
+      inVelocity  Note attack velocity (0 to 127). A NoteOn with 0 velocity is considered as a NoteOff.
+      inChannel The channel on which the message will be sent (1 to 16).
+  */
