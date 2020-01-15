@@ -13,4 +13,15 @@
     	int _led;
     	int _nivel=LOW;
   };
+
+  class Potenciometro{
+    public:
+      Potenciometro(int apin);
+      void estado();
+      void ativo();
+    private:
+      int _apin;
+      int _val_novo;
+      int _val_velho;
+  };
 #endif
